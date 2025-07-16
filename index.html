@@ -109,14 +109,5 @@
     &copy; 2025 England Tourism
   </footer>
 
-  <script>
-    function updateClock() {
-      const options = { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', second: '2-digit' };
-      const now = new Date().toLocaleTimeString('en-GB', options);
-      document.getElementById('clock').textContent = now;
-    }
-    updateClock();
-    setInterval(updateClock, 1000);
-  </script>
 </body>
 </html>
